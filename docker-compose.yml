@@ -1,0 +1,10 @@
+
+
+services:
+    generator:
+      build: ./random
+      container_name: random_num_con
+
+    calculator:
+       build: ./calc
+       container_name: cal_num_con
